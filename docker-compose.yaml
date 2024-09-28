@@ -28,10 +28,10 @@ services:
       - ./env/mysql.env
 
 
-  composer:
-    build:
-      context: ./dockerfile
-      dockerfile: composer1.dockerfile
-    volumes:
-      - ./src:/var/www/html
+  # composer:
+  #   build:
+  #     context: ./dockerfile
+  #     dockerfile: composer1.dockerfile
+  #   volumes:
+  #     - ./src:/var/www/html
       
